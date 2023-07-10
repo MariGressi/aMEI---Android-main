@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/fFAQ"
+    android:paddingBottom="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="10dp"
+    android:background="@color/gray">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:id="@+id/faq_view"
+        android:padding="10dp"
+        >
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rl_faq_view"
+                android:layout_weight="2"
+                >
+                <ImageView
+                    android:layout_width="200dp"
+                    android:layout_height="200dp"
+                    android:id="@+id/iv_faq_logo"
+                    android:src="@drawable/logo"
+                    android:layout_centerHorizontal="true"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/schedule_view_schedules_of_day"
+                    android:id="@+id/lbl_faq_title"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/iv_faq_logo"
+                    />
+                <androidx.fragment.app.FragmentContainerView
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:layout_below="@id/lbl_faq_title"
+                    class="com.example.amei.Interfaces.FAQ.FAQList"
+                    android:id="@+id/frag_faq_list"
+                    tools:layout="@layout/fragment_f_a_q_list"
+                    android:padding="10dp"
+
+                    />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/rl_schedule_detail"
+                android:layout_weight="1"
+                android:layout_toRightOf="@+id/rl_schedule_view"
+                android:layout_above="@+id/btn_schedule_create"
+                >
+
+                <androidx.fragment.app.FragmentContainerView
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    class="com.example.amei.Interfaces.FAQ.FAQListItem"
+                    android:id="@+id/frag_faq_details"
+                    tools:layout="@layout/fragment_f_a_q_list_item"
+                    />
+
+            </RelativeLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+    </RelativeLayout>
+
+</LinearLayout>

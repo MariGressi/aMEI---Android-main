@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">aMEI</string>
+    <string name="document_CNPJ">Verificar CNPJ</string>
+    <string name="document_CPF">Verificar CPF</string>
+    <string name="nd_open">Abrir</string>
+    <string name="nd_close">Fechar</string>
+    <string name="menu_schedules">Agendamento</string>
+
+
+    <string-array name="document_type">
+        <item>CNPJ</item>
+        <item>CPF</item>
+    </string-array>
+
+    <string-array name="alert_schedule">
+        <item>nunca</item>
+        <item>uma hora</item>
+        <item>doze horas</item>
+        <item>um dia</item>
+        <item>dois dias</item>
+        <item>uma semana</item>
+    </string-array>
+
+    <string-array name="alert_frequency">
+        <item>Semanal</item>
+        <item>Mensal</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="login_user">Login:</string>
+    <string name="login_password">Senha:</string>
+    <string name="login_error_msg">Usuário ou senha incorretos, tente novamente!</string>
+    <string name="login_button_login">Entrar</string>
+    <string name="login_button_signup">Cadastre-se</string>
+    <string name="schedule_create_date">Data:</string>
+    <string name="schedule_create_button_date">Selecione a data</string>
+    <string name="schedule_create_title">Evento:</string>
+    <string name="schedule_create_description">Descrição:</string>
+    <string name="schedule_create_button_save">Salvar</string>
+    <string name="signup_document">CNPJ:</string>
+    <string name="signup_button_document">Verificar CNPJ</string>
+    <string name="signup_password">Senha:</string>
+    <string name="signup_button_signup">Cadastre-se</string>
+    <string name="splash_loading">Loading</string>
+    <string name="schedule_view_schedules_of_day">AGENDAMENTOS DO DIA</string>
+    <string name="schedule_view_button_create">Novo Agendamento</string>
+    <string name="schedule_list_item_title"> </string>
+    <string name="schedule_list_item_description">Selecione um agendamento para ver os detalhes</string>
+    <string name="schedule_list_item_datetime"> </string>
+    <string name="main_button_pattern">Agendamento</string>
+    <string name="contact_us_subject">Assunto:</string>
+    <string name="contact_us_message">Mensagem:</string>
+    <string name="contact_us_button_send">Enviar</string>
+    <string name="schedule_create_time">Horario</string>
+    <string name="schedule_create_button_time">Selecione o horário</string>
+    <string name="get_an_upgrade">You need to pay for an upgraded version</string>
+    <string name="wait_for_upgrade">Volte em uma nova versão</string>
+    <string name="dev_2" translatable="false">Raphael Menezes</string>
+    <string name="dev_1" translatable="false">Mariana Gressi</string>
+    <string name="dev_team">Equipe desenvolvedora:</string>
+    <string name="about_message">Sistema aMEI desenvolvido para facilitar o controle e gerenciamento de sua Micro Empresa Individual(MEI).\n\nSistema contempla funcionalidades de controle de agenda, contabilidade e RH e o cadastro de clientes, produtos e serviços.\n\nOferecemos também um suporte para o usuário com perguntas frequentes sobre a legislação de MEIs e um contato caso encontre algum problema com o sistema.\n\nUtilizando aMEI o empreendedor poderá gerenciar sua empresa diretamente do aplicativo de forma simples, facil e pratica sem a necessidade de consultas externas.\n\n\n</string>
+    <string name="faq_view_title">Perguntas Frequentes</string>
+    <string name="faq_list_item_question" translatable="false" />
+    <string name="faq_answer">Selecione uma pergunta para ver sua resposta</string>
+    <string name="schedule_create_select_client">Selecione o Cliente:</string>
+    <string name="schedule_create_out_of_clients">Cadastrar Cliente</string>
+    <string name="schedule_create_out_of_product">Cadastrar Produtos</string>
+    <string name="schedule_create_product_select">Selecione o Produto:</string>
+    <string name="schedule_create_out_of_service" >Cadastrar Serviço</string>
+    <string name="schedule_create_service_select" >Selecione o Serviço:</string>
+
+</resources>
